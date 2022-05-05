@@ -1,3 +1,5 @@
+#ifndef SORT_H
+#define SORT_H
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -12,8 +14,6 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-#ifndef SORT_H
-#define SORT_H
 #include <stdio.h>
 #include <stdlib.h>
 void print_array(const int *array, size_t size);
