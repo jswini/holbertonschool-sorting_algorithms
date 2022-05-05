@@ -21,5 +21,5 @@ void print_list(const listint_t *list);
 void merge_sort(int *array, size_t size);
 int  copy_array(int *array, int start_index, int end_index, int *array_copy);
 void top_down_split(int *array2, int start_index, int end_index, int *array3);
-void top_down(int *array, int start_index, int center_index, int end_index, int *array2);
+void top_down(int *array2, int start_index, int end_index, int *array3);
 #endif /*SORT_H*/
